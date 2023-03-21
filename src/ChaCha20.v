@@ -13,7 +13,7 @@ const (
 
 type State = []u32
 
-struct Cipher {
+pub struct Cipher {
 mut:
 	state State
 pub mut:

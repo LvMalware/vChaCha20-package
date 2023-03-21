@@ -2,7 +2,7 @@ module chacha20
 
 import encoding.hex
 
-const (
+pub const (
 	// size in bytes
 	key_size = 32
 	nonce_size = 12
